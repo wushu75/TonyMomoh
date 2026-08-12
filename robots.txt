@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wushu75.github.io/TonyMomoh/sitemap.xml
+Sitemap: https://tonymomoh.co.uk/sitemap.xml
