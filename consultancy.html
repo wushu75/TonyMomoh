@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Product & UX Consultancy — Tony Momoh | Fintech, Lending & Healthcare</title>
+<meta name="description" content="London-based AI product and senior UX consultant helping fintech, lending, healthcare and customer-facing teams in Nigeria, Ghana and wider Africa turn AI opportunities into practical products.">
+<meta name="author" content="Tony Momoh">
+<meta name="keywords" content="AI product consultant, UX consultant, AI consultancy Nigeria, AI consultancy Ghana, fintech UX, lending product, conversational AI, voice agents, UX research, MVP, prototyping, Tony Momoh">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#3B2EE5">
+<link rel="canonical" href="https://tonymomoh.co.uk/consultancy.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Tony Momoh">
+<meta property="og:title" content="AI Product & UX Consultancy — Tony Momoh">
+<meta property="og:description" content="I help teams in Nigeria, Ghana and wider Africa turn AI opportunities into practical products — research, product strategy, UX design and rapid prototyping.">
+<meta property="og:url" content="https://tonymomoh.co.uk/consultancy.html">
+<meta property="og:image" content="https://tonymomoh.co.uk/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_GB">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Product & UX Consultancy — Tony Momoh">
+<meta name="twitter:description" content="I help teams in Nigeria, Ghana and wider Africa turn AI opportunities into practical products.">
+<meta name="twitter:image" content="https://tonymomoh.co.uk/og-image.png">
+<meta name="twitter:creator" content="@tonylab_net">
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Tony Momoh — AI Product & UX Consultancy",
+  "url": "https://tonymomoh.co.uk/consultancy.html",
+  "image": "https://tonymomoh.co.uk/og-image.png",
+  "description": "London-based AI product and senior UX consultant helping fintech, lending, healthcare and customer-facing teams turn AI opportunities into practical products — from research and product strategy to working prototypes and MVP roadmaps.",
+  "provider": {
+    "@type": "Person",
+    "name": "Tony Momoh",
+    "url": "https://tonymomoh.co.uk/",
+    "jobTitle": "AI Product & UX Consultant"
+  },
+  "areaServed": [
+    {"@type": "Country", "name": "Nigeria"},
+    {"@type": "Country", "name": "Ghana"},
+    {"@type": "Place", "name": "Africa"},
+    {"@type": "Country", "name": "United Kingdom"}
+  ],
+  "serviceType": ["AI product discovery", "Conversational AI and voice experience design", "UX research and product design", "AI prototyping and MVP planning", "Product and team advisory"],
+  "knowsAbout": ["Fintech", "Lending", "Healthcare", "AI product strategy", "UX research", "Rapid prototyping"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FBF9F4;
+    --paper-2:#F4F1E9;
+    --ink:#18171D;
+    --muted:#6E6B78;
+    --indigo:#3B2EE5;
+    --indigo-ink:#2A1FB0;
+    --amber:#FFB020;
+    --amber-wash:rgba(255,176,32,.42);
+    --line:#E6E1D5;
+    --card:#FFFFFF;
+    --radius:16px;
+    --maxw:960px;
+  }
+
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Hanken Grotesk",system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  a{color:inherit}
+  ::selection{background:var(--amber-wash)}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 28px}
+
+  /* ---------- utility label ---------- */
+  .eyebrow{
+    font-family:"JetBrains Mono",monospace;
+    font-size:12.5px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--muted);
+    display:inline-flex;
+    align-items:center;
+    gap:9px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:22px;height:1.5px;
+    background:var(--indigo);
+    display:inline-block;
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    border-bottom:1px solid var(--line);
+    position:sticky;top:0;z-index:50;
+    background:rgba(251,249,244,.82);
+    backdrop-filter:saturate(140%) blur(8px);
+  }
+  .topbar .wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    height:62px;
+  }
+  .brand{
+    font-family:"JetBrains Mono",monospace;
+    font-weight:500;font-size:14px;letter-spacing:.06em;
+    text-decoration:none;
+  }
+  .brand b{color:var(--indigo)}
+  .nav-right{display:flex;align-items:center;gap:18px}
+  .nav-link{
+    font-family:"JetBrains Mono",monospace;font-size:13px;letter-spacing:.04em;
+    color:var(--muted);text-decoration:none;
+  }
+  .nav-link:hover{color:var(--ink)}
+
+  /* buttons on light background */
+  .btn-solid{
+    background:var(--indigo);color:#fff;text-decoration:none;font-weight:600;font-size:14px;
+    padding:9px 18px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;
+    transition:transform .16s ease, background .16s ease;
+  }
+  .btn-solid:hover{transform:translateY(-2px);background:var(--indigo-ink)}
+  .btn-solid:focus-visible{outline:2.5px solid var(--indigo);outline-offset:3px}
+  .btn-outline{
+    border:1.5px solid var(--ink);color:var(--ink);text-decoration:none;font-weight:600;font-size:15px;
+    padding:11px 22px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;
+    transition:transform .16s ease, border-color .16s ease, color .16s ease;
+  }
+  .btn-outline:hover{transform:translateY(-2px);border-color:var(--indigo);color:var(--indigo)}
+  .btn-amber{
+    background:var(--amber);color:#1a1400;text-decoration:none;font-weight:600;font-size:15px;
+    padding:12px 22px;border-radius:999px;display:inline-flex;align-items:center;gap:8px;
+    transition:transform .16s ease;
+  }
+  .btn-amber:hover{transform:translateY(-2px)}
+  .btn-amber:focus-visible{outline:2.5px solid var(--indigo);outline-offset:3px}
+
+  /* ---------- hero ---------- */
+  .hero{padding:66px 0 24px}
+  h1{
+    font-family:"Bricolage Grotesque",sans-serif;
+    font-weight:700;
+    font-size:clamp(2.3rem,6.2vw,4.1rem);
+    line-height:1.04;
+    letter-spacing:-.02em;
+    margin:16px 0 0;
+    max-width:17ch;
+  }
+  h1 .mark{position:relative;white-space:nowrap;z-index:0}
+  h1 .mark::after{
+    content:"";position:absolute;left:-.06em;right:-.06em;bottom:.08em;
+    height:.42em;background:var(--amber-wash);z-index:-1;border-radius:3px;
+    transform:scaleX(0);transform-origin:left;
+    animation:sweep .7s cubic-bezier(.2,.7,.2,1) forwards;
+  }
+  @keyframes sweep{to{transform:scaleX(1)}}
+
+  .hero-sub{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:500;
+    font-size:clamp(1.05rem,2.4vw,1.35rem);color:var(--ink);
+    margin:20px 0 0;
+  }
+  .lede{
+    font-size:clamp(1.04rem,2.2vw,1.2rem);
+    line-height:1.55;
+    max-width:54ch;
+    margin:18px 0 0;
+    color:#34333B;
+  }
+  .meta-line{
+    font-family:"JetBrains Mono",monospace;
+    font-size:12.5px;color:var(--muted);letter-spacing:.03em;
+    margin-top:24px;
+    display:flex;flex-wrap:wrap;gap:6px 14px;
+  }
+  .meta-line span{white-space:nowrap}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+
+  /* section rhythm */
+  section{padding:50px 0}
+  .sec-head{margin-bottom:28px}
+  .sec-head h2{
+    font-family:"Bricolage Grotesque",sans-serif;
+    font-weight:600;font-size:clamp(1.5rem,3.6vw,2.1rem);
+    letter-spacing:-.015em;margin:12px 0 0;line-height:1.1;
+  }
+  .sec-head p{color:var(--muted);margin:8px 0 0;max-width:56ch;font-size:15.5px}
+
+  .tint{background:var(--paper-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+  /* big statement */
+  .big-statement{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:500;
+    font-size:clamp(1.4rem,3.6vw,2.15rem);line-height:1.25;letter-spacing:-.01em;
+    color:var(--ink);margin:0;max-width:30ch;
+  }
+  .big-statement .mark{position:relative;z-index:0;white-space:nowrap}
+  .big-statement .mark::after{
+    content:"";position:absolute;left:-.05em;right:-.05em;bottom:.08em;height:.4em;
+    background:var(--amber-wash);z-index:-1;border-radius:3px;
+  }
+
+  /* cards */
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:var(--radius);
+    padding:22px 22px 20px;
+    text-decoration:none;color:inherit;
+    display:flex;flex-direction:column;
+    transition:transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  }
+  a.card:hover{
+    transform:translateY(-3px);
+    border-color:#d8d2c2;
+    box-shadow:0 14px 30px -18px rgba(24,23,29,.4);
+  }
+  a.card:focus-visible{outline:2.5px solid var(--indigo);outline-offset:3px}
+  .card .num{
+    font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--indigo);
+    font-weight:500;margin-bottom:10px;
+  }
+  .card .name{
+    font-family:"Bricolage Grotesque",sans-serif;
+    font-weight:700;font-size:1.22rem;letter-spacing:-.01em;
+    display:flex;align-items:center;gap:9px;line-height:1.15;
+  }
+  .card .name .arrow{
+    margin-left:auto;color:var(--indigo);font-size:1.05rem;
+    transition:transform .18s ease;
+  }
+  a.card:hover .name .arrow{transform:translate(3px,-3px)}
+  .card .desc{color:#45444C;font-size:15px;margin-top:9px;line-height:1.5}
+  .card .tag{
+    margin-top:14px;
+    font-family:"JetBrains Mono",monospace;font-size:11.5px;
+    letter-spacing:.04em;color:var(--muted);
+  }
+
+  /* prose (experience) */
+  .prose{max-width:62ch}
+  .prose p{color:#34333B;font-size:16px;line-height:1.62;margin:0 0 16px}
+  .prose p:last-child{margin-bottom:0}
+  .prose .note{
+    border-left:2px solid var(--amber);padding-left:16px;color:#45444C;font-size:15.5px;
+  }
+
+  /* who I help list */
+  .who{display:grid;grid-template-columns:1fr 1fr;gap:12px 28px;margin:0;padding:0;list-style:none}
+  .who li{
+    display:flex;gap:11px;align-items:flex-start;font-size:15.5px;color:#34333B;line-height:1.45;
+    padding:4px 0;
+  }
+  .who li::before{
+    content:"";flex:none;width:7px;height:7px;margin-top:8px;border-radius:50%;
+    background:var(--amber);
+  }
+
+  /* pricing */
+  .price-line{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:600;
+    font-size:clamp(1.3rem,3vw,1.7rem);letter-spacing:-.01em;color:var(--ink);margin:0;
+  }
+  .price-sub{color:#45444C;font-size:16px;margin:12px 0 0;max-width:52ch}
+
+  /* ---------- connect (dark) ---------- */
+  .connect{background:var(--ink);color:#F3F1EA}
+  .connect h2{
+    font-family:"Bricolage Grotesque",sans-serif;font-weight:700;
+    font-size:clamp(2rem,6vw,3.2rem);letter-spacing:-.02em;margin:0;line-height:1.04;
+  }
+  .connect .amber{color:var(--amber)}
+  .connect p{color:#B9B7C4;max-width:50ch;margin:16px 0 30px;font-size:1.05rem}
+  .links{display:flex;flex-wrap:wrap;gap:12px}
+  .btn{
+    text-decoration:none;font-weight:600;font-size:15px;
+    padding:12px 22px;border-radius:999px;display:inline-flex;align-items:center;gap:9px;
+    transition:transform .16s ease, background .16s ease, color .16s ease;
+  }
+  .btn.primary{background:var(--amber);color:#1a1400}
+  .btn.ghost{border:1px solid #4a4954;color:#F3F1EA}
+  .btn:hover{transform:translateY(-2px)}
+  .btn.ghost:hover{border-color:var(--amber);color:var(--amber)}
+  .btn:focus-visible{outline:2.5px solid var(--amber);outline-offset:3px}
+  .connect .foot{
+    margin-top:44px;padding-top:20px;border-top:1px solid #2e2d37;
+    display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;
+    font-family:"JetBrains Mono",monospace;font-size:12px;color:#8a8895;letter-spacing:.03em;
+  }
+
+  /* reveal-on-scroll */
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+
+  @media (max-width:640px){
+    body{font-size:16px}
+    .wrap{padding:0 20px}
+    .hero{padding:46px 0 18px}
+    .grid{grid-template-columns:1fr}
+    .who{grid-template-columns:1fr;gap:4px}
+    section{padding:40px 0}
+    .nav-link{display:none}
+    .meta-line{flex-direction:column;gap:7px}
+    .meta-line span{white-space:normal}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none !important;scroll-behavior:auto !important}
+    .reveal{opacity:1;transform:none;transition:none}
+    h1 .mark::after{transform:scaleX(1)}
+  }
+</style>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="index.html">TONY<b>·</b>MOMOH</a>
+      <div class="nav-right">
+        <a class="nav-link" href="index.html">Portfolio</a>
+        <a class="btn-solid" href="mailto:tonymomoh@icloud.com?subject=Project%20enquiry">Discuss a project</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <span class="eyebrow">AI Product &amp; UX Consultancy</span>
+        <h1>I help ambitious teams in Nigeria, Ghana &amp; wider Africa turn AI opportunities into <span class="mark">practical products</span>.</h1>
+        <p class="hero-sub">For fintech, lending, healthcare and customer-facing businesses.</p>
+        <p class="lede">I bring experience across UK healthcare, fintech, lending, Saudi fintech and crypto. I combine user research, product strategy, UX design and rapid prototyping to help teams move from an early idea to a clear, testable product.</p>
+        <div class="meta-line">
+          <span>◦ Available remotely &amp; for selected on-site engagements across Africa</span>
+          <span>◦ Project pricing tailored to your brief</span>
+        </div>
+        <div class="hero-cta">
+          <a class="btn-amber" href="mailto:tonymomoh@icloud.com?subject=Project%20enquiry">Discuss a project →</a>
+          <a class="btn-outline" href="index.html#work">See selected work →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CORE MESSAGE -->
+    <section class="tint">
+      <div class="wrap reveal">
+        <p class="big-statement">I help teams turn AI opportunities into <span class="mark">practical products</span> — from research and product strategy to user journeys, working prototypes and MVP roadmaps.</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Services</span>
+          <h2>How I can help.</h2>
+          <p>Flexible engagements, scoped to your brief — from a focused discovery sprint to ongoing product and research support.</p>
+        </div>
+        <div class="grid">
+          <div class="card reveal">
+            <div class="num">01</div>
+            <div class="name">AI product discovery</div>
+            <div class="desc">Identify valuable AI opportunities, understand user and business needs, prioritise use cases, define an MVP and create a practical roadmap.</div>
+          </div>
+          <div class="card reveal">
+            <div class="num">02</div>
+            <div class="name">Conversational AI &amp; voice experiences</div>
+            <div class="desc">Design journeys for voice agents, chatbots and AI assistants, including human handover and the wider service experience.</div>
+          </div>
+          <div class="card reveal">
+            <div class="num">03</div>
+            <div class="name">UX research &amp; product design</div>
+            <div class="desc">Research customer needs, test assumptions, improve important journeys and turn findings into product recommendations.</div>
+          </div>
+          <div class="card reveal">
+            <div class="num">04</div>
+            <div class="name">AI prototypes &amp; MVP planning</div>
+            <div class="desc">Build or shape a working prototype, test it with users or stakeholders, and define the next steps towards an MVP.</div>
+          </div>
+          <div class="card reveal" style="grid-column:1 / -1">
+            <div class="num">05</div>
+            <div class="name">Product &amp; team advisory</div>
+            <div class="desc">Support teams with product strategy, research planning, design critique, stakeholder workshops and AI product guidance.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & CREDIBILITY -->
+    <section class="tint" id="experience">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Experience &amp; credibility</span>
+          <h2>Experience across fintech, healthcare and crypto.</h2>
+        </div>
+        <div class="prose reveal">
+          <p>I'm a London-based AI generalist, senior UX researcher and product designer with more than 10 years of design experience. My work spans AI products, UK private healthcare, fintech, lending and crypto.</p>
+          <p>My experience includes STC Pay in Saudi Arabia, Account Technologies, lending-focused banking work and crypto / MPC-wallet product research at MPCH.</p>
+          <p class="note">My African-market experience is more limited, so I bring transferable international product and fintech experience rather than claiming deep local-market expertise. I'm available remotely and for selected on-site engagements across Nigeria, Ghana and wider Africa. Where a project needs deeper local research, language or regulatory knowledge, I'm open to collaborating with local specialists.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SELECTED AI WORK -->
+    <section id="work">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Selected AI work</span>
+          <h2>Practical AI product work.</h2>
+          <p>A few projects I've researched, designed and prototyped. Explore the live demos, or see the full portfolio.</p>
+        </div>
+        <div class="grid">
+          <a class="card reveal" href="https://codecatalyst.uk/" target="_blank" rel="noopener">
+            <div class="name">CodeCatalyst <span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="desc">An AI operations layer for UK private healthcare — an AI receptionist, patient pipeline, claims and CQC-aligned complaint handling.</div>
+            <div class="tag">Research · product design · prototyping</div>
+          </a>
+          <a class="card reveal" href="https://conceptnet.co.uk/" target="_blank" rel="noopener">
+            <div class="name">ConceptNet <span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="desc">A voice-native agent OS turning enterprise voice commands into licensable IP, with an open-source sandbox and benchmarks against GPT-4o.</div>
+            <div class="tag">Founder · voice AI · open-source</div>
+          </a>
+          <a class="card reveal" style="grid-column:1 / -1" href="https://wushu75.github.io/LingMail/" target="_blank" rel="noopener">
+            <div class="name">LingMail <span style="font-weight:400;opacity:.6">灵邮</span> <span class="arrow" aria-hidden="true">↗</span></div>
+            <div class="desc">An open-source, agent-first communication layer that gives every AI agent its own identity and inbox — send, receive, thread and wake on new messages. Ongoing.</div>
+            <div class="tag">AI agents · open-source · ongoing</div>
+          </a>
+        </div>
+        <p style="margin-top:20px;font-family:'JetBrains Mono',monospace;font-size:13px;letter-spacing:.03em">
+          <a href="index.html#work" style="color:var(--indigo-ink);text-decoration:none">→ See the full portfolio</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- WHO I HELP -->
+    <section class="tint" id="who">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <span class="eyebrow">Who I help</span>
+          <h2>Who this is for.</h2>
+        </div>
+        <ul class="who reveal">
+          <li>Fintech and payment companies.</li>
+          <li>Lenders and financial-services businesses.</li>
+          <li>Banks and insurers exploring AI-enabled customer experiences.</li>
+          <li>Healthcare providers and health-tech companies.</li>
+          <li>Customer-facing businesses with support, booking or service workflows.</li>
+          <li>Funded startups and corporate innovation teams.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section id="pricing">
+      <div class="wrap reveal">
+        <span class="eyebrow">Pricing</span>
+        <p class="price-line" style="margin-top:14px">Project pricing tailored to your brief.</p>
+        <p class="price-sub">Every engagement is scoped around your goals, delivery needs and timeline. Available remotely and for selected on-site engagements across Nigeria, Ghana and wider Africa.</p>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="connect" id="contact">
+      <div class="wrap">
+        <span class="eyebrow" style="color:#9a97a6">Let's talk</span>
+        <h2 style="margin-top:14px">Have a project in mind?<br><span class="amber">Let's discuss it.</span></h2>
+        <p>Tell me about your product, your users and where AI could help — I'll come back with how I'd approach it.</p>
+        <div class="links">
+          <a class="btn primary" href="mailto:tonymomoh@icloud.com?subject=Project%20enquiry">Discuss a project →</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/tonymomoh/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a class="btn ghost" href="index.html">Back to portfolio</a>
+        </div>
+        <div class="foot">
+          <span>Tony Momoh · London, UK · serving Nigeria, Ghana &amp; wider Africa</span>
+          <span>Project pricing tailored to your brief</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+<script>
+  const io = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+</body>
+</html>

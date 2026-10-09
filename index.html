@@ -140,6 +140,12 @@
     text-decoration:none;
   }
   .brand b{color:var(--indigo)}
+  .nav-right{display:flex;align-items:center;gap:18px}
+  .nav-consult{
+    font-family:"JetBrains Mono",monospace;font-size:13px;letter-spacing:.04em;
+    font-weight:500;color:var(--indigo-ink);text-decoration:none;white-space:nowrap;
+  }
+  .nav-consult:hover{text-decoration:underline}
   .status{
     display:inline-flex;align-items:center;gap:9px;
     font-family:"JetBrains Mono",monospace;
@@ -199,6 +205,23 @@
     display:flex;flex-wrap:wrap;gap:6px 14px;
   }
   .meta-line span{white-space:nowrap}
+
+  /* homepage consultancy CTA */
+  .home-consult-cta{
+    display:inline-flex;align-items:center;gap:11px;margin-top:30px;
+    background:var(--amber-wash);border:1px solid rgba(255,176,32,.55);
+    color:var(--ink);text-decoration:none;font-weight:600;font-size:14.5px;
+    padding:11px 18px 11px 12px;border-radius:999px;
+    transition:transform .16s ease, box-shadow .16s ease;
+  }
+  .home-consult-cta .pill{
+    font-family:"JetBrains Mono",monospace;font-size:10.5px;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--indigo-ink);background:#fff;
+    padding:3px 9px;border-radius:999px;white-space:nowrap;
+  }
+  .home-consult-cta .arrow{color:var(--indigo-ink)}
+  .home-consult-cta:hover{transform:translateY(-2px);box-shadow:0 12px 26px -16px rgba(255,176,32,.9)}
+  .home-consult-cta:focus-visible{outline:2.5px solid var(--indigo);outline-offset:3px}
 
   /* section rhythm */
   section{padding:52px 0}
@@ -356,7 +379,7 @@
     .vals{grid-template-columns:1fr;gap:24px}
     .xp-row{grid-template-columns:1fr;gap:2px}
     .xp-when{text-align:left}
-    .status .txt{display:none}
+    .status{display:none}
     section{padding:42px 0}
   }
 
@@ -372,10 +395,13 @@
   <header class="topbar">
     <div class="wrap">
       <a class="brand" href="#top">TONY<b>·</b>MOMOH</a>
-      <span class="status">
-        <span class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
-        <span class="txt">Open to senior AI &amp; UX roles</span>
-      </span>
+      <div class="nav-right">
+        <a class="nav-consult" href="consultancy.html">Consultancy →</a>
+        <span class="status">
+          <span class="eq" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+          <span class="txt">Open to senior AI &amp; UX roles</span>
+        </span>
+      </div>
     </div>
   </header>
 
@@ -393,6 +419,11 @@
           <span>◦ Senior UX researcher</span>
           <span>◦ 0→1 product strategy</span>
         </div>
+        <a class="home-consult-cta" href="consultancy.html">
+          <span class="pill">New</span>
+          AI Product &amp; UX Consultancy — for fintech, lending &amp; healthcare teams
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
       </div>
     </section>
 
@@ -523,7 +554,7 @@
         </div>
         <div class="chips reveal">
           <a class="chip" href="https://wushu75.github.io/readr/" target="_blank" rel="noopener"><span class="dot"></span>Readr</a>
-          <a class="chip" href="https://wushu75.github.io/CycleSync/" target="_blank" rel="noopener"><span class="dot"></span>CycleSync</a>
+          <a class="chip" href="https://getcyclesync.com/" target="_blank" rel="noopener"><span class="dot"></span>CycleSync</a>
           <a class="chip" href="https://wushu75.github.io/Lens/" target="_blank" rel="noopener"><span class="dot"></span>Lens</a>
           <a class="chip" href="https://wushu75.github.io/Yoink/" target="_blank" rel="noopener"><span class="dot"></span>Yoink</a>
           <a class="chip" href="https://wushu75.github.io/TranscriptSnap/" target="_blank" rel="noopener"><span class="dot"></span>TranscriptSnap</a>
